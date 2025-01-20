@@ -9,7 +9,7 @@ mail_adress = st.secrets["general"]["mail"]
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 
 with col1:
-    st.image("assets/dummy-pic.png", width=400)
+    st.image("assets/picture.png", width=300)
 with col2:
     st.title(st.secrets["general"]["name"], anchor=False)
     st.write(
