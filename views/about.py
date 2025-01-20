@@ -1,5 +1,4 @@
 import streamlit as st 
-import pyperclip
 
 
 st.title("About me")
@@ -19,8 +18,11 @@ with col2:
     st.link_button("💻 Github", url="https://github.com/s4i10r")
 
     if st.button("📧 Mail"):
-        pyperclip.copy(mail_adress)
-        st.success("Mail adress copied!")
+        st.code(mail_adress)
+        st.success("Contact me!")
+
+
+
 
 
 st.write("\n")
