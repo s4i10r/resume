@@ -12,7 +12,7 @@ with col1:
 with col2:
     st.title(st.secrets["general"]["name"], anchor=False)
     st.write(
-        """CS Student in Frankfurt (Germany)"""
+        """Computer Science Student (Bachelor)"""
     )
 
     st.link_button("💻 Github", url="https://github.com/s4i10r")
@@ -28,9 +28,9 @@ with col2:
 st.write("\n")
 st.subheader("About")
 st.write("""
-        - Currently studying Computer Science in Frankfurt (Germany)\n
+        - Currently studying Computer Science\n
         - Aspiring IT enthusiast looking for opportunities to contribute and grow\n
-        - Currently studying: C++
+        - Interests: CS fundamentals, Cyber Security, Python and C++
         """)
 
 
