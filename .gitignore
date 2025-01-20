@@ -1,0 +1,7 @@
+venv/
+test.*
+.env
+assets/
+.streamlit/
+*.toml
+
